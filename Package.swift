@@ -20,6 +20,10 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("include/private")
             ]
+        ),
+        .testTarget(
+            name: "MaterialComponentsTests",
+            dependencies: ["MaterialComponents"]
         )
     ]
 )
