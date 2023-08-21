@@ -4,14 +4,13 @@ import PackageDescription
 let package = Package(
     name: "MaterialComponents",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v13)
     ],
     products: [
         .library(
             name: "MaterialComponents",
             targets: ["MaterialComponents"])
     ],
-    dependencies: [],
     targets: [
         .target(
             name: "MaterialComponents",
@@ -19,7 +18,7 @@ let package = Package(
             path: "Source",
             publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath("."),
+                .headerSearchPath("include/private")
             ]
         )
     ]
