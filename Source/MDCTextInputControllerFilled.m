@@ -21,6 +21,7 @@
 #import "MDCTextInputControllerBase.h"
 #import "private/MDCTextInputArt.h"
 #import "private/MDCTextInputControllerBase+Subclassing.h"
+#import "UIView+MaterialRTL.h"
 
 #import "MaterialMath.h"
 

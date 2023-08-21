@@ -21,6 +21,7 @@
 #import "MDCTextInputUnderlineView.h"
 #import "private/MDCTextField+Testing.h"
 #import "private/MDCTextInputCommonFundament.h"
+#import "UIView+MaterialRTL.h"
 
 #import "MaterialMath.h"
 #import "MaterialTypography.h"

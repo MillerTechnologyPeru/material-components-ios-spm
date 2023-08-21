@@ -20,7 +20,7 @@
 #import "MDCTextInputBorderView.h"
 #import "MDCTextInputUnderlineView.h"
 #import "private/MDCTextInputControllerBase+Subclassing.h"
-
+#import "UIView+MaterialRTL.h"
 
 #pragma mark - Class Properties
 
